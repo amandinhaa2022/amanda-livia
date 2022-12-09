@@ -1,0 +1,112 @@
+*{
+	margin: 10px;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 90px;
+	background-color: black;
+}
+.titulo{
+	font-family: arial;
+	font-size: 30px;
+	color: white;
+
+}
+.icones{
+	display: flex;
+	justify-content: row;
+	justify-content: flex-end;
+	margin-top: -50px;
+}
+.face, .twitter, .youtube{
+	width: 50px;
+	height: 40px;
+}
+.banner{
+	display: flex;
+	justify-content: center;
+}
+.banner-img{
+	width: 65%;
+	height: 310px;
+}
+.noticias{
+	display: flex;
+	justify-content: space between;
+	flex-wrap: wrap;
+	width: 800px;
+}
+.franca, .australia, .dinamarca, .tunisia{
+	width: 250px;
+	height: 200px;
+}
+.franca-text, .australia-text, .dinamarca-text, .tunisia-text{
+	font-family: arial;
+	font-size: 15px;
+	width: 250px;
+	margin-top: -5px;
+}
+.australia, .tunisia, .australia-text, .tunisia-text{
+	margin-left: 100px;
+}
+aside{
+	background-color: #4282CC;
+	margin-left: 825px;
+	margin-top: -593px;
+	height: 583px;
+}
+.deschamps{
+	margin-left: 100px;
+	width: 250px;
+	height: 200px;
+}
+.deschamps-text{
+	font-family: arial;
+	font-size: 15px;
+}
+.australia-oitavas, .mbappe{
+	margin-top: 50px;
+	width: 150px;
+	height: 100px;
+}
+.mbappe{
+	margin-top: 50px;
+}
+.australia-oitavas-text, .mbappe-text{
+	font-family: arial;
+	font-size: 13px;
+	width: 250px;
+	margin-top: -80px;
+	margin-left: 165px;
+}
+@media(max-width: 700px){
+	aside, .twitter, .youtube{
+		display: none;
+	}
+	.banner-img{
+		width: 450px;	
+		height: 250px;
+	}
+	.noticias{
+		display: flex;
+		flex-direction: column;
+	}
+	.franca{
+		margin-top: 15px;
+	}
+	.franca-text, .australia-text, .dinamarca-text, .tunisia-text{
+		margin-left: 270px;
+		margin-top: -150px;
+		width: 280px;
+	}
+	.australia, .tunisia{
+		margin-top: 100px;
+		margin-left: 8.5px;
+	}
+	.dinamarca{
+		margin-top: 90px;
+	}
+
+}
